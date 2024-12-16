@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     saluteButton.addEventListener('click', () => {
         const salute = document.createElement('div');
         salute.classList.add('salute');
-        salute.textContent = '🎆 Салют! 🎇';
+        salute.textContent = 'Салют!';
         document.body.appendChild(salute);
         setTimeout(() => {
             salute.remove();
